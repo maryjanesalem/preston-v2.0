@@ -1,0 +1,59 @@
+
+
+.navbar-top {
+    transition: all 0.5s;
+
+    // .social-toggle {
+    //     display: flex;
+    // }
+
+
+    img.logo {
+        height: 7vh;
+    }
+
+    .logo-text {
+        color: white;
+        // border: 2px solid rgba(255, 255 , 255, .80);
+        padding: 5px 8px;
+        border-radius: 10px;
+        font-size: xx-large;
+        height: 200px;
+        font-family: 'MonteCarlo', cursive;
+    }
+
+    .socialLinks-1 a,
+    .socialLinks-2 a {
+        text-decoration: none;
+        margin-right: 10px;
+
+        img {
+            width: 25px;
+            opacity: 0.8;
+        }
+    }
+
+    /* custom toggler */
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, .9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+    
+    // .custom-toggler.navbar-toggler {
+    //     border-color: rgb(255, 255, 255);
+    // }
+
+
+    @media screen and (min-width: 50px) and (max-width: 992px) {
+
+        .socialLinks-2 {
+            display: none;
+        }
+        
+    }
+}
+
+.navbar-scrolled {
+    background-color: $main-color-2;
+    box-shadow: 0 3px 10px rgba(0, 0 , 0, .15)
+
+}

@@ -1,0 +1,31 @@
+.carousel-header {
+
+    .bg-img-1 {
+        background-image: url('../img/index1.webp');
+    }
+
+    .bg-img-2 {
+        background-image: url('../img/index2.webp');
+    }
+
+    .bg-img-3 {
+        background-image: url('../img/index3.webp');
+    }
+
+    .carousel-image {
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .background-tint {
+        background-color: rgba(0, 0, 0, 0.40);
+        background-blend-mode: multiply;
+    }
+
+    .carousel-caption {
+        top: 50%
+    }
+
+}
