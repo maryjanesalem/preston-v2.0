@@ -1,0 +1,67 @@
+body {
+  height: 3000px;
+}
+
+.navbar-top {
+  transition: all 0.5s;
+  /* custom toggler */
+}
+.navbar-top img.logo {
+  height: 7vh;
+}
+.navbar-top .logo-text {
+  color: white;
+  padding: 5px 8px;
+  border-radius: 10px;
+  font-size: xx-large;
+  height: 200px;
+  font-family: "MonteCarlo", cursive;
+}
+.navbar-top .socialLinks-1 a,
+.navbar-top .socialLinks-2 a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+.navbar-top .socialLinks-1 a img,
+.navbar-top .socialLinks-2 a img {
+  width: 25px;
+  opacity: 0.8;
+}
+.navbar-top .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, .9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+@media screen and (min-width: 50px) and (max-width: 992px) {
+  .navbar-top .socialLinks-2 {
+    display: none;
+  }
+}
+
+.navbar-scrolled {
+  background-color: #978371;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-header .bg-img-1 {
+  background-image: url("../img/index1.webp");
+}
+.carousel-header .bg-img-2 {
+  background-image: url("../img/index2.webp");
+}
+.carousel-header .bg-img-3 {
+  background-image: url("../img/index3.webp");
+}
+.carousel-header .carousel-image {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-header .background-tint {
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+}
+.carousel-header .carousel-caption {
+  top: 50%;
+}
+
+/*# sourceMappingURL=styles.css.map */

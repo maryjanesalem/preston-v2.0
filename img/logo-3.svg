@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="300px" height="300px" viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{font-family:'CopperplateGothic-Light';}
+	.st2{font-size:52.8552px;}
+	.st3{font-family:'MyriadPro-Regular';}
+	.st4{font-size:17.4286px;}
+	.st5{font-size:20.6278px;}
+	.st6{font-size:11.4844px;}
+	.st7{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<g id="background_3_">
+	<path class="st0" d="M262.904,400.333"/>
+</g>
+<g id="background_1_">
+	<path class="st0" d="M262.904-99.667"/>
+</g>
+<g>
+	<text transform="matrix(1.1295 0 0 1 11.1577 156.3789)" class="st0 st1 st2">Preston</text>
+	<g>
+		<text transform="matrix(1.42 0 0 1 78.7505 77.5884)" class="st0 st3 st4">RESTAURANT</text>
+	</g>
+	<g>
+		<path class="st0" d="M86.842,213.54H52.146c-24.488,0-44.251-16.836-44.251-37.329V112.81c0-20.494,19.763-36.694,44.251-36.694
+			h23.643v-6.607H52.146C23.304,69.509,0,88.673,0,112.81v63.401c0,24.137,23.304,43.936,52.146,43.936h34.696V213.54z"/>
+		<path class="st0" d="M247.199,69.509h-26.146v6.607h26.146c24.488,0,44.907,16.2,44.907,36.694v63.401
+			c0,20.493-20.418,37.329-44.907,37.329h-35.62v6.607h35.62c28.842,0,52.801-19.799,52.801-43.936V112.81
+			C300,88.673,276.041,69.509,247.199,69.509z"/>
+	</g>
+	<g>
+		<text transform="matrix(1.1949 0 0 1 91.4297 224.5088)" class="st0 st3 st5">SINCE 1997</text>
+	</g>
+	<g>
+		<text transform="matrix(1.1949 0 0 1 100.5039 191.3877)" class="st0 st3 st6">FOOD  &amp;  DRINKS</text>
+	</g>
+	<line class="st7" x1="86.842" y1="178.523" x2="211.579" y2="178.523"/>
+	<line class="st7" x1="86.842" y1="197.023" x2="211.579" y2="197.023"/>
+</g>
+</svg>
