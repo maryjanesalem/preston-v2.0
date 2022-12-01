@@ -22,6 +22,14 @@
         font-family: 'MonteCarlo', cursive;
     }
 
+    li a.active{
+        font-weight: bold;
+    }
+
+    li a:hover {
+        font-weight: bold;
+    }
+
     .socialLinks-1 a,
     .socialLinks-2 a {
         text-decoration: none;
