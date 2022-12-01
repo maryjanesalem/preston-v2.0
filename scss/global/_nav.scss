@@ -19,7 +19,19 @@
         border-radius: 10px;
         font-size: xx-large;
         height: 200px;
-        font-family: 'MonteCarlo', cursive;
+        font-family: $font-1;
+    }
+
+    li a {
+        font-family: $font-3;
+    }
+
+    li a.active{
+        font-weight: bold;
+    }
+
+    li a:hover {
+        font-weight: bold;
     }
 
     .socialLinks-1 a,
