@@ -17,6 +17,9 @@ body {
   height: 200px;
   font-family: "MonteCarlo", cursive;
 }
+.navbar-top li a {
+  font-family: "Josefin Sans", sans-serif;
+}
 .navbar-top li a.active {
   font-weight: bold;
 }
@@ -71,6 +74,7 @@ body {
 }
 .carousel-header h3 {
   font-size: 2.5em;
+  font-family: "Josefin Sans", sans-serif;
 }
 .carousel-header a {
   text-decoration: none;
@@ -86,6 +90,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.5);
   width: 15rem;
   margin: 0.5rem;
+  font-family: "Viaoda Libre", cursive;
 }
 
 /*# sourceMappingURL=styles.css.map */
