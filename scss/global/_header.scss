@@ -1,0 +1,28 @@
+header {
+    background: url(https://media.gq-magazine.co.uk/photos/60d5ac0cbb8986e188ac69e4/master/w_1920,h_1280,c_limit/24062021_food_01.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 40vh;
+
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.3);
+        background-blend-mode: multiply;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        color: white;
+        margin: auto;
+        font-family: $font-2;
+        font-size: 5em;
+    }
+}
