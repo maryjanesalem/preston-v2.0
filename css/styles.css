@@ -3,7 +3,6 @@
 }
 
 body {
-  height: 3000px;
   margin: 0;
 }
 
@@ -126,6 +125,22 @@ header h1 {
 
 .gallery-into {
   margin: 4rem auto;
+}
+
+footer {
+  margin-top: 5vh;
+}
+footer .row-sign-up {
+  height: 15vh;
+  background-color: #ece3db;
+}
+footer .row-footer {
+  height: 36vh;
+  background-color: #271d14;
+}
+footer .row-copyright {
+  height: 4vh;
+  background-color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */
