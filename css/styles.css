@@ -129,10 +129,58 @@ header h1 {
 
 footer {
   margin-top: 5vh;
+  font-family: "Josefin Sans", sans-serif;
 }
 footer .row-sign-up {
-  height: 15vh;
+  height: 22vh;
   background-color: #ece3db;
+  color: #271d14;
+}
+footer .form-col, footer form {
+  height: 100%;
+}
+footer form {
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer form input {
+  height: 2.5rem;
+}
+@media screen and (max-width: 991px) {
+  footer form label, footer form input {
+    margin-bottom: 5px;
+  }
+  footer form input {
+    width: 20rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  footer .row-sign-up {
+    height: 15vh;
+  }
+  footer form {
+    flex-direction: row;
+  }
+  footer form label, footer form input {
+    margin-right: 10px;
+  }
+  footer form input {
+    width: 20em;
+  }
+}
+footer form button {
+  border-radius: 5px;
+  border: 1px solid #ece3db;
+  background-color: #978371;
+  color: white;
+  padding: 0.4em 2em;
+}
+footer .row-form {
+  text-align: center;
 }
 footer .row-footer {
   height: 36vh;

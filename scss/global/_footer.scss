@@ -1,10 +1,79 @@
 footer {
     margin-top: 5vh;
+    font-family: $font-3;
     
     .row-sign-up {
-        height: 15vh;
+        height: 22vh;
         background-color: $main-color-1;
+        color: $main-color-4;
     }
+
+    .form-col, form {
+        height: 100%;
+    }
+
+    form {
+        text-transform: uppercase;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form label {
+        // font-weight: bold;
+    }
+
+    form input {
+        height: 2.5rem;
+    }
+
+    @media screen and (max-width: 991px) {
+        form label, form input {
+            margin-bottom: 5px;
+        }
+
+        form input {
+            width: 20rem;
+        }
+    }
+
+    @media screen and (min-width: 992px) {
+        .row-sign-up {
+            height: 15vh;
+        }
+
+        form {
+            flex-direction: row;
+        }
+
+        form label, form input {
+            margin-right: 10px;
+        }
+
+        form input {
+            width: 20em;
+        }
+    }
+
+    form button {
+        border-radius: 5px;
+        border: 1px solid $main-color-1;
+        background-color: $main-color-2;
+        color: white;
+        padding: 0.4em 2em;
+    }
+
+
+
+
+
+    .row-form {
+        text-align: center;
+    }
+
+
 
     .row-footer {
         height: 36vh;
