@@ -98,11 +98,6 @@ body {
 }
 
 header {
-  background: url(https://media.gq-magazine.co.uk/photos/60d5ac0cbb8986e188ac69e4/master/w_1920,h_1280,c_limit/24062021_food_01.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  -webkit-background-size: cover;
-  background-size: cover;
   height: 40vh;
 }
 header .overlay {
@@ -121,7 +116,54 @@ header h1 {
   color: white;
   margin: auto;
   font-family: "Viaoda Libre", cursive;
-  font-size: 5em;
+}
+
+header.gallery {
+  background: url(https://media.gq-magazine.co.uk/photos/60d5ac0cbb8986e188ac69e4/master/w_1920,h_1280,c_limit/24062021_food_01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+header.contact {
+  background: url(https://ca-times.brightspotcdn.com/dims4/default/f0be189/2147483647/strip/true/crop/6240x4160+0+0/resize/1486x991!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F34%2Faa%2F9c0493024b13bec2da0578af084f%2Fmr-surfandturf-champagne.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+header.blog {
+  background: url(https://img.freepik.com/premium-photo/luxury-food-wedding-table-small-appetizers-white-plates-raw-with-snacks-closeup_116317-7442.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+header.reservation {
+  background: url(https://img.freepik.com/premium-photo/luxury-table-setting-dining-restaurant-pastel-colors-close-up-wedding-party-table-set-banquet_324489-5415.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+header.menu {
+  background: url(https://huntervalleywinetours.files.wordpress.com/2013/07/shutterstock_59742380.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+header.about {
+  background: url(https://www.lux-review.com/wp-content/uploads/2020/08/oysters-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 .gallery-into {
@@ -154,6 +196,8 @@ footer form {
 }
 footer form input {
   height: 2.5rem;
+  border-radius: 10px;
+  border: 1px solid #978371;
 }
 @media screen and (max-width: 991px) {
   footer form label, footer form input {
@@ -178,7 +222,7 @@ footer form input {
   }
 }
 footer form button {
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid #ece3db;
   background-color: #978371;
   color: white;
@@ -268,6 +312,109 @@ footer .copyright-flex .social-footer img {
   }
   footer .copyright-text {
     margin-top: 0.5em;
+    margin-right: 0.8em;
+  }
+}
+
+.map-responsive {
+  width: 80%;
+  margin: 3em auto;
+  max-width: 1320px;
+}
+.map-responsive iframe {
+  width: 100%;
+}
+
+.contact-page .contact {
+  margin: auto;
+  font-family: "Josefin Sans", sans-serif;
+  color: #271d14;
+}
+.contact-page .contact .container-lg {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.contact-page .form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.contact-page .form-item input, .contact-page .form-item textarea {
+  border-radius: 10px;
+  padding: 0.4em;
+  border: 2px solid #ece3db;
+}
+
+.contact form .title {
+  margin: 2em auto 2em;
+  text-transform: uppercase;
+}
+
+.contact-page form .submit,
+.contact-page form .title {
+  text-align: center;
+}
+
+.contact-page .contact form button {
+  width: 30%;
+  padding: 0.5em 0;
+  border-radius: 10px;
+  border: 2px solid #ece3db;
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: #7e634f;
+  color: #ece3db;
+  margin-bottom: 4em;
+}
+
+@media screen and (min-width: 768px) {
+  .contact form {
+    max-width: 800px;
+    gap: 0.8em;
+    grid-template-columns: 233% 33% 1fr;
+    grid-template-areas: "title title title" "item1 item2 item3" "item4 item4 item4" "submit submit submit";
+  }
+  form .title {
+    grid-area: title;
+  }
+  form .item1 {
+    grid-area: item1;
+  }
+  form .item2 {
+    grid-area: item2;
+  }
+  form .item3 {
+    grid-area: item3;
+  }
+  form .item4 {
+    grid-area: item4;
+  }
+  form .submit {
+    grid-area: submit;
+  }
+}
+.contact-info {
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 2em;
+}
+.contact-info img {
+  width: 1.5em;
+  margin: 1em 2em 1em 1em;
+}
+.contact-info h3 {
+  text-transform: uppercase;
+  margin-bottom: 0.8em;
+}
+.contact-info .info-1, .contact-info .info-2, .contact-info .info-3 {
+  display: flex;
+  margin-bottom: 3em;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-info .info-1 {
+    padding-right: 3em;
   }
 }
 

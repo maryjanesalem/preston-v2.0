@@ -1,9 +1,4 @@
 header {
-    background: url(https://media.gq-magazine.co.uk/photos/60d5ac0cbb8986e188ac69e4/master/w_1920,h_1280,c_limit/24062021_food_01.jpg);
-    background-repeat: no-repeat;
-    background-position:center;
-    -webkit-background-size: cover;
-    background-size: cover;
     height: 40vh;
 
     .overlay {
@@ -23,6 +18,54 @@ header {
         color: white;
         margin: auto;
         font-family: $font-2;
-        font-size: 5em;
+        // font-size: 5em;
     }
+}
+
+header.gallery {
+    background: url(https://media.gq-magazine.co.uk/photos/60d5ac0cbb8986e188ac69e4/master/w_1920,h_1280,c_limit/24062021_food_01.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+header.contact {
+    background: url(https://ca-times.brightspotcdn.com/dims4/default/f0be189/2147483647/strip/true/crop/6240x4160+0+0/resize/1486x991!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F34%2Faa%2F9c0493024b13bec2da0578af084f%2Fmr-surfandturf-champagne.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+header.blog {
+    background: url(https://img.freepik.com/premium-photo/luxury-food-wedding-table-small-appetizers-white-plates-raw-with-snacks-closeup_116317-7442.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+header.reservation {
+    background: url(https://img.freepik.com/premium-photo/luxury-table-setting-dining-restaurant-pastel-colors-close-up-wedding-party-table-set-banquet_324489-5415.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-position:center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+header.menu {
+    background: url(https://huntervalleywinetours.files.wordpress.com/2013/07/shutterstock_59742380.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+header.about {
+    background: url(https://www.lux-review.com/wp-content/uploads/2020/08/oysters-2.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
