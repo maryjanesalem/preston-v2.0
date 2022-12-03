@@ -34,6 +34,8 @@ footer {
 
     form input {
         height: 2.5rem;
+        border-radius: 10px;
+        border: 1px solid $main-color-2;
     }
 
     @media screen and (max-width: 991px) {
@@ -61,11 +63,12 @@ footer {
 
         form input {
             width: 20em;
+            
         }
     }
 
     form button {
-        border-radius: 5px;
+        border-radius: 10px;
         border: 1px solid $main-color-1;
         background-color: $main-color-2;
         color: white;
@@ -186,6 +189,7 @@ footer {
 
         .copyright-text {
             margin-top: 0.5em;
+            margin-right: 0.8em;
         }
         
     }

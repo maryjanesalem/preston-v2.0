@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Preston</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=MonteCarlo&family=Viaoda+Libre&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- animation link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body class="contact-page">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-top">
+        <div class="container-lg">
+            <a class="navbar-brand flex-fill .flex-md-fill" href="#">
+                <span class="logo-text">Preston</span>
+            </a>
+            <!-- Social Links 1 -->
+            <div class="socialLinks-1 d-sm-inline-block d-lg-none">
+                <a href="#">
+                    <img src="../img/icons/icon-facebook.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="../img/icons/icon-instagram-fill.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="../img/icons/icon-twitter.png" alt="">
+                </a>
+            </div>
+
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="../pages/menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="../pages/reservation.html">Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="../pages/gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="../pages/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="../pages/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light active" href="../pages/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Social Links 2 -->
+            <div class="socialLinks-2 d-sm-none d-lg-inline">
+                <a href="#">
+                    <img src="../img/icons/icon-facebook.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="../img/icons/icon-instagram-fill.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="../img/icons/icon-twitter.png" alt="">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="contact">
+        <div class="overlay">
+            <h1 class="display-1">Contact</h1>
+        </div>
+    </header>
+
+    <!-- Map -->
+    <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.3666523833218!2d121.04891287364332!3d14.549629421275593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8f1dba1fa37%3A0x785281aa78a5a2a8!2sc2%207th%20Ave%2C%20Taguig%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1670072687703!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Form -->
+    <div class="contact">
+        <form class="container-lg">
+            <div class="title">
+                <h2>Send us a Message</h2>
+            </div>
+            <div class="form-item item1">
+                <label for="contact-name">Name</label>
+                <input type="text" id="contact-name" name="contact-name" placeholder="Name" required>
+            </div>
+            <div class="form-item item2">
+                <label for="contact-email">Email</label>
+                <input type="email" id="contact-email" name="contact-email" placeholder="Email" required>
+            </div>
+            <div class="form-item item3">
+                <label for="contact-phone">Phone</label>
+                <input type="tel" id="contact-phone" name="contact-phone" placeholder="Phone Number" required>                      
+            </div>
+            <div class="form-item item4">
+                <label for="contact-message">Message</label>
+                <textarea name="contact-message" id="contact-message" cols="30" rows="8" placeholder="Message" required></textarea>
+            </div>
+            <div class="submit">
+                <button type="submit" value="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Information -->
+    <div class="container contact-info">
+        <div class="row">
+            <div class="col-12 col-md-4 info-1">
+                <div>
+                    <img src="../img/icons/icon-location-dark.png" alt="">
+                </div>
+                <div>
+                    <h3>location</h3>
+                    <p>The Fort Strip, 7th Avenue, Taguig, Metro Manila</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 info-2">
+                <div>
+                    <img src="../img/icons/icon-call-dark.png" alt="">
+                </div>
+                <div>
+                    <h3>call us</h3>
+                    <p>(02) 8183 2181</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 info-3">
+                <div>
+                    <img src="../img/icons/icon-clock-dark.png" alt="">
+                </div>
+                <div>
+                    <h3>opening hours</h3>
+                    <p>09:30 AM – 11:00 PM</p>
+                    <p>Every Day</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    
+
+
+    <!-- Foooter -->
+    <footer class="container-fluid">
+        <div class="row row-sign-up">
+            <div class="col-12 form-col">
+                <form>
+                    <div>
+                        <label for="specials-email" class="fs-6">Specials Sign-up</label>
+                    </div>
+                    <div>
+                        <input type="email" name="specials" id="specials-email" placeholder="Email Address">
+                    </div>
+                    <div>
+                        <button type="submit" value="submit">SUBMIT</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row row-main">
+            <div class="container">
+                <div class="column1 py-5 px-3">
+                    <h5 class="fs-6 pb-2">CONTACT US</h5>
+                    <div class="d-flex">
+                        <img src="../img/icons/icon-location.png" alt="">
+                        <p>The Fort Strip, 7th Avenue, Taguig, Metro Manila</p> 
+                    </div> 
+                    
+                    <div class="d-flex">
+                        <img src="../img/icons/icon-call.png" alt="">
+                        <p>(02) 8183 2181</p>
+                    </div>
+                    <div class="d-flex">
+                        <img src="../img/icons/icon-mail.png" alt="">
+                        <p>contact@preston.com</p>
+                    </div>
+
+                    <h5 class="fs-6 pt-5 pb-2">OPENING TIMES</h5>
+                    <p>09:30 AM – 11:00 PM</p>
+                    <p>Every Day</p> 
+                    
+                </div>
+                <div class="column2 py-5 px-3">
+                    <h5 class="fs-6 pb-2">LATEST TWITTER</h5>
+                    <div>
+                        <a href="#" class="d-flex">
+                            <img src="../img/icons/icon-twitter.png" alt="">
+                            <p>
+                                @prestonresto
+                            </p>
+                        </a>
+                    </div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, tenetur? Ratione, quibusdam!  
+                        <a href="#">https://buff.ly/2raGfPD</a>
+                        
+                    </p>
+                    <p class="pb-2">
+                        1 Dec 2022
+                    </p>
+                    <div>
+                        <a href="#" class="d-flex">
+                            <img src="../img/icons/icon-twitter.png" alt="">
+                            <p>
+                                @prestonresto
+                            </p>
+                        </a>
+                    </div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        <a href="">https://buff.ly/2raGfEM</a>
+                    </p>
+                    <p>
+                        3 Dec 2022
+                    </p>
+                </div>
+
+                <div class="column3 py-5 px-3">
+                    <h5 class="fs-6 pb-2">GALLERY</h5>
+                    <div class="mini-gallery">
+                        <div class="col-mini-1">
+                            <img src="../img/gallerypics/s1.webp" alt="">
+                            <img src="../img/gallerypics/s2.webp" alt="">
+                            <img src="../img/gallerypics/s7.webp" alt="">
+                        </div>
+                        <div class="col-mini-2">
+                            <img src="../img/gallerypics/s8.webp" alt="">
+                            <img src="../img/gallerypics/s9.webp" alt="">
+                            <img src="../img/gallerypics/s10.webp" alt="">
+                        </div>
+                        <div class="col-mini-3">
+                            <img src="../img/gallerypics/s11.webp" alt="">
+                            <img src="../img/gallerypics/s12.webp" alt="">
+                            <img src="../img/gallerypics/s13.webp" alt="">
+                        </div>
+                        <div class="col-mini-4">
+                            <img src="../img/gallerypics/s14.webp" alt="">
+                            <img src="../img/gallerypics/s15.webp" alt="">
+                            <img src="../img/gallerypics/s16.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row copyright">
+            <div class="copyright-flex">
+                <div class="social-footer">
+                    <a href="#">
+                        <img src="../img/icons/icon-facebook.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="../img/icons/icon-instagram-fill.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="../img/icons/icon-twitter.png" alt="">
+                    </a>
+                </div>
+                <div class="fs-6 copyright-text">
+                    <p>Copyright © 2022 Preston. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                once: true // default once value is false
+            }
+        );
+    </script>
+    
+    <!-- scroll -->
+    <script>
+        const navEl =  document.querySelector('.navbar');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 30) {
+                navEl.classList.add('navbar-scrolled');
+            } else if (window.scrollY < 30) {
+                navEl.classList.remove('navbar-scrolled');
+            }
+        });
+    </script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+    
+</body>
+</html>
