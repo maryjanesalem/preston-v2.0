@@ -176,9 +176,6 @@ footer.container-fluid {
 footer.container-fluid p {
   font-weight: 200;
 }
-footer.container-fluid p.t-account {
-  text-decoration: none !important;
-}
 footer.container-fluid p.date {
   opacity: 0.5;
   font-size: 0.8em;
