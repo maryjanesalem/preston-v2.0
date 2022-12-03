@@ -1,5 +1,18 @@
 footer.container-fluid {
     padding: 0!important;
+
+    p {
+        font-weight: 200;
+    }
+
+    p.t-account {
+        text-decoration: none!important;
+    }
+
+    p.date {
+        opacity: 0.5;
+        font-size: 0.8em;
+    }
 }
 
 
@@ -83,7 +96,7 @@ footer {
         color: white;
 
         a {
-            color: $tertiary-color-3;
+            color: rgb(255, 154, 154);
         }
     }
 
@@ -121,8 +134,8 @@ footer {
     }
 
     .column2 img {
-        width: 1.3em;
-        height: 1.3em;
+        width: 1.2em;
+        height: 1.2em;
         margin-right: 0.5em;
         padding-top: 0.2em;
     }

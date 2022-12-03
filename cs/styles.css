@@ -174,14 +174,7 @@ footer.container-fluid {
   padding: 0 !important;
 }
 footer.container-fluid p {
-  font-weight: 200;
-}
-footer.container-fluid p.t-account {
-  text-decoration: none !important;
-}
-footer.container-fluid p.date {
-  opacity: 0.5;
-  font-size: 0.8em;
+  font-weight: 100;
 }
 
 footer {
@@ -244,7 +237,7 @@ footer .row-main {
   color: white;
 }
 footer .row-main a {
-  color: rgb(255, 154, 154);
+  color: #aa5851;
 }
 footer .row-main .container {
   height: 100%;
@@ -273,8 +266,8 @@ footer .column1 img {
   margin-top: 0.2em;
 }
 footer .column2 img {
-  width: 1.2em;
-  height: 1.2em;
+  width: 1.3em;
+  height: 1.3em;
   margin-right: 0.5em;
   padding-top: 0.2em;
 }
