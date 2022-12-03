@@ -417,5 +417,101 @@ footer .copyright-flex .social-footer img {
     padding-right: 3em;
   }
 }
+.booking {
+  max-width: 750px;
+  color: #271d14;
+  font-family: "Josefin Sans", sans-serif;
+}
+.booking .booking-title {
+  text-align: center;
+  margin-top: 5em;
+}
+.booking .booking-title h3 {
+  font-style: italic;
+  margin-bottom: 0.4em;
+  font-family: "Viaoda Libre", cursive;
+  color: #aa5851;
+}
+.booking .booking-title h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 2em;
+}
+.booking .form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+}
+.booking .form-item input, .booking .form-item select {
+  padding: 0.5em;
+  border: 2px solid #ece3db;
+  border-radius: 10px;
+}
+.booking .book-submit {
+  text-align: center;
+}
+.booking .book-submit input {
+  padding: 0.4em 1em;
+  border: 1px solid #271d14;
+  border-radius: 10px;
+  background-color: #503825;
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  .booking form {
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "item1 item2 item3" "item4 item5 item6" "submit submit submit";
+  }
+  .booking .item1 {
+    grid-area: item1;
+  }
+  .booking .item2 {
+    grid-area: item2;
+  }
+  .booking .item3 {
+    grid-area: item3;
+  }
+  .booking .item4 {
+    grid-area: item4;
+  }
+  .booking .item5 {
+    grid-area: item5;
+  }
+  .booking .item6 {
+    grid-area: item6;
+  }
+  .booking .book-submit {
+    grid-area: submit;
+    margin-top: 0.8em;
+  }
+}
+
+.book-by-call {
+  margin-top: 4em;
+}
+.book-by-call .by-phone {
+  padding-bottom: 3em;
+}
+.book-by-call h4 {
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+.book-by-call span.color-red {
+  color: #aa5851;
+  display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+  .book-by-call {
+    margin: 4em auto;
+    max-width: 1200px;
+  }
+  .by-phone {
+    padding-top: -4em;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

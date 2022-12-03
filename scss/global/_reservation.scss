@@ -1,0 +1,117 @@
+.booking {
+    max-width: 750px;
+    color: $main-color-4;
+    font-family: $font-3;
+
+    .booking-title {
+        text-align: center;
+        margin-top: 5em;
+
+        h3 {
+            font-style: italic;
+            margin-bottom: 0.4em;
+            font-family: $font-2;
+            color: $tertiary-color-3;
+        }
+
+        h2 {
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 2em;
+        }
+    }
+
+    .form-item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.5em;
+
+        input, select {
+            padding: 0.5em;
+            border: 2px solid $main-color-1;
+            border-radius: 10px;
+        }
+
+    }
+
+    .book-submit {
+        text-align: center;
+
+        input {
+            padding: 0.4em 1em;
+            border: 1px solid $main-color-4;
+            border-radius: 10px;
+            background-color: $main-color-3;
+            color: white;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        form {
+            display: grid;
+            gap: 0.5em;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas: 
+                "item1 item2 item3"
+                "item4 item5 item6"
+                "submit submit submit"
+            ;
+        }    
+
+        .item1 {
+            grid-area: item1;
+        }
+        .item2 {
+            grid-area: item2;
+        }
+        .item3 {
+            grid-area: item3;
+        }
+        .item4 {
+            grid-area: item4;
+        }
+        .item5 {
+            grid-area: item5;
+        }
+        .item6 {
+            grid-area: item6;
+        }
+        .book-submit {
+            grid-area: submit;
+            margin-top: 0.8em;
+        }
+    }
+
+}
+
+.book-by-call {
+    margin-top: 4em;
+    
+    .by-phone {
+
+        padding-bottom: 3em;
+    }
+
+    h4 {
+        text-transform: uppercase;
+        margin-bottom: 0.5em;
+    }
+
+    span.color-red {
+        color: $tertiary-color-3;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .book-by-call {
+        margin: 4em auto;
+        max-width: 1200px;
+    }
+
+    .by-phone {
+        padding-top: -4em;
+    }
+
+}
