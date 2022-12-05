@@ -11,7 +11,7 @@
             font-style: italic;
             margin-bottom: 0.4em;
             font-family: $font-2;
-            color: $tertiary-color-3;
+            color: $highlight-color-2;
         }
 
         h2 {
@@ -99,7 +99,7 @@
     }
 
     span.color-red {
-        color: $tertiary-color-3;
+        color: $highlight-color-2;
         display: inline-block;
     }
 }
