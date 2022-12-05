@@ -206,6 +206,9 @@ header.about {
 
 .gallery-into {
   margin: 4rem auto;
+  font-family: "Josefin Sans", sans-serif;
+  color: #271d14;
+  max-width: 650px;
 }
 
 footer.container-fluid {
@@ -749,6 +752,230 @@ main.about-page .chef .img3 {
   background-position: bottom;
   -webkit-background-size: cover;
   background-size: cover;
+}
+
+main.menu {
+  font-family: "Josefin Sans", sans-serif;
+}
+main.menu .first {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 768px) {
+  main.menu .first {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+  }
+}
+main.menu h3 {
+  font-family: "Viaoda Libre", cursive;
+  margin-bottom: 1em;
+  font-weight: bold;
+  margin-top: 2em;
+}
+main.menu .menu-item {
+  display: flex;
+  margin-bottom: 1em;
+}
+main.menu .menu-item .menu-pic {
+  width: 10rem;
+  height: 10rem;
+  min-width: 10rem;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  background-color: beige;
+  margin-right: 0.5em;
+  border: 1px solid #ece3db;
+}
+main.menu .menu-item .info p {
+  font-size: smaller;
+}
+main.menu .menu-item .info h6,
+main.menu .menu-item .info .price {
+  font-weight: bold;
+}
+main.menu .menu-img-holder1 {
+  background: url(../img/menu/1.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 500ms ease;
+}
+main.menu .menu-img-holder2 {
+  background: url(../img/menu/2.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+main.menu .menu-img-holder3 {
+  background: url(../img/menu/3.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+main.menu .menu-img-holder4 {
+  background: url(../img/menu/4.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+main.menu .menu-img-holder5 {
+  background: url(../img/menu/5.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+main.menu .menu-img-holder6 {
+  background: url(../img/menu/6.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+main.menu .menu-img-holder7 {
+  background: url(../img/menu/7.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+main.menu .menu-img-holder9 {
+  background: url(../img/menu/9.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+main.menu .menu-img-holder8 {
+  background: url(../img/menu/8.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+main.menu .menu-img-holder10 {
+  background: url(../img/menu/10.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+main.menu .menu-img-holder11 {
+  background: url(../img/menu/11.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+main.menu .menu-img-holder12 {
+  background: url(../img/menu/12.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+main.menu .menu-img-holder13 {
+  background: url(../img/menu/13.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+main.menu .menu-img-holder14 {
+  background: url(../img/menu/14.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+main.menu .menu-img-holder15 {
+  background: url(../img/menu/15.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+main.menu .menu-img-holder16 {
+  background: url(../img/menu/16.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+main.menu .menu-img-holder17 {
+  background: url(../img/menu/17.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+main.menu .menu-img-holder18 {
+  background: url(../img/menu/18.webp);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+main.menu .menu-item .menu-pic .menu-img-holder1:hover,
+main.menu .menu-item .menu-pic .menu-img-holder2:hover,
+main.menu .menu-item .menu-pic .menu-img-holder3:hover,
+main.menu .menu-item .menu-pic .menu-img-holder4:hover,
+main.menu .menu-item .menu-pic .menu-img-holder5:hover,
+main.menu .menu-item .menu-pic .menu-img-holder6:hover,
+main.menu .menu-item .menu-pic .menu-img-holder7:hover,
+main.menu .menu-item .menu-pic .menu-img-holder8:hover,
+main.menu .menu-item .menu-pic .menu-img-holder9:hover,
+main.menu .menu-item .menu-pic .menu-img-holder10:hover,
+main.menu .menu-item .menu-pic .menu-img-holder11:hover,
+main.menu .menu-item .menu-pic .menu-img-holder12:hover,
+main.menu .menu-item .menu-pic .menu-img-holder13:hover,
+main.menu .menu-item .menu-pic .menu-img-holder14:hover,
+main.menu .menu-item .menu-pic .menu-img-holder15:hover,
+main.menu .menu-item .menu-pic .menu-img-holder16:hover,
+main.menu .menu-item .menu-pic .menu-img-holder17:hover,
+main.menu .menu-item .menu-pic .menu-img-holder18:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=styles.css.map */
