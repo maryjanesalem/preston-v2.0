@@ -37,9 +37,6 @@ footer {
         align-items: center;
     }
 
-    form label {
-        // font-weight: bold;
-    }
 
     form input {
         height: 2.5rem;
@@ -92,7 +89,7 @@ footer {
         color: white;
 
         a {
-            color: rgb(255, 154, 154);
+            color: $highlight-color-1;
         }
     }
 
