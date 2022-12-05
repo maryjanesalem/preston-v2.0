@@ -174,11 +174,7 @@ footer.container-fluid {
   padding: 0 !important;
 }
 footer.container-fluid p {
-  font-weight: 200;
-}
-footer.container-fluid p.date {
-  opacity: 0.5;
-  font-size: 0.8em;
+  font-weight: 100;
 }
 
 footer {
@@ -241,7 +237,7 @@ footer .row-main {
   color: white;
 }
 footer .row-main a {
-  color: rgb(255, 154, 154);
+  color: #aa5851;
 }
 footer .row-main .container {
   height: 100%;
@@ -270,8 +266,8 @@ footer .column1 img {
   margin-top: 0.2em;
 }
 footer .column2 img {
-  width: 1.2em;
-  height: 1.2em;
+  width: 1.3em;
+  height: 1.3em;
   margin-right: 0.5em;
   padding-top: 0.2em;
 }
@@ -437,7 +433,7 @@ footer .copyright-flex .social-footer img {
   font-style: italic;
   margin-bottom: 0.4em;
   font-family: "Viaoda Libre", cursive;
-  color: #F37A71;
+  color: #aa5851;
 }
 .booking .booking-title h2 {
   font-weight: bold;
@@ -507,7 +503,7 @@ footer .copyright-flex .social-footer img {
   margin-bottom: 0.5em;
 }
 .book-by-call span.color-red {
-  color: #F37A71;
+  color: #aa5851;
   display: inline-block;
 }
 
@@ -518,79 +514,6 @@ footer .copyright-flex .social-footer img {
   }
   .by-phone {
     padding-top: -4em;
-  }
-}
-main.about-page {
-  padding: 0;
-  margin: 0;
-}
-main.about-page .intro {
-  margin: auto;
-  text-align: center;
-  max-width: 650px;
-}
-main.about-page h4 {
-  font-family: "Viaoda Libre", cursive;
-  font-style: italic;
-  color: #F37A71;
-  text-transform: capitalize;
-}
-main.about-page h2, main.about-page p {
-  color: #271d14;
-  font-family: "Josefin Sans", sans-serif;
-}
-main.about-page h2 {
-  text-transform: uppercase;
-}
-main.about-page .video {
-  height: 40vh;
-  background-image: url(../img/backgrounds/1.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  -webkit-background-size: cover;
-  background-size: cover;
-  padding: 0;
-  margin-left: 0;
-  margin-right: 0;
-}
-main.about-page .video .overlay {
-  background-color: rgba(0, 0, 0, 0.3);
-  background-blend-mode: multiply;
-  height: 100%;
-  width: 100%;
-}
-main.about-page .video .content {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-main.about-page .video .content h2 {
-  color: white;
-}
-main.about-page .video .content img {
-  background-color: white;
-  border-radius: 100%;
-  padding: 1em 0.8em 1em 1.2em;
-  width: 64px;
-}
-main.about-page .info-1 {
-  max-width: 1200px;
-}
-main.about-page .info-1 .info-1-img {
-  border-radius: 10px;
-  height: 25vh;
-  background-image: url(https://media.istockphoto.com/id/1155240467/photo/table-filled-with-large-variety-of-food.jpg?s=612x612&w=0&k=20&c=1i60bjx-UYCAB4tavW5zR4SEqRkVjAx2b1oV5dF6o2A=);
-  background-repeat: no-repeat;
-  background-position: center;
-  -webkit-background-size: cover;
-  background-size: cover;
-}
-@media screen and (min-width: 768px) {
-  main.about-page .info-1 {
-    display: flex;
   }
 }
 
