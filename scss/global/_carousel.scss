@@ -46,10 +46,57 @@
     }
 
     a .btn {
-        background-color: $main-color-1;
-        color: $main-color-4;
-        border: 1px solid rgba(255, 255, 255, 0.5);
-        width: 10rem;
-        font-family: $font-2;
+        // background-color: $main-color-1;
+        // color: $main-color-4;
+        // border: 1px solid rgba(255, 255, 255, 0.5);
+        // width: 10rem;
+        // font-family: $font-2;
     }
+
+             
+    .btn-grad-gold {
+        background-image: linear-gradient(to right, #eacda3 0%, #d6ae7b  51%, #eacda3  100%);
+        margin: auto;
+        padding: 1em;
+        width: 14rem;
+        font-family: $font-2;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        border-color: $main-color-1;
+      }
+
+      .btn-grad-gold:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: $main-color-3;
+        text-decoration: none;
+      }
+     
+               
+    .btn-grad-light {
+        background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%);
+        margin: auto;
+        padding: 1em;
+        width: 14rem;
+        font-family: $font-2;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: $main-color-2;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        border-color: $main-color-1;
+      }
+
+      .btn-grad-light:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: $main-color-4;
+        text-decoration: none;
+      }
+     
 }

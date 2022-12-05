@@ -25,6 +25,8 @@
     li a {
         font-family: $font-3;
         transition: all ease 300ms;
+        margin-left: 0.7em;
+        margin-right: 0.7em;
     }
 
     li a.active{
@@ -32,7 +34,10 @@
     }
 
     li a:hover {
-        transform: translateY(-2px);
+        background: rgb(214,174,123);
+background: linear-gradient(333deg, rgba(214,174,123,1) 0%, rgba(234,205,163,1) 48%, rgba(214,174,123,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .socialLinks-1 a,
