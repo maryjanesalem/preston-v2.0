@@ -33,7 +33,7 @@ main.menu {
             border-radius: 5px;
             overflow: hidden;
             position: relative;
-            background-color: beige;
+            // background-color: beige;
             margin-right: 0.5em;
             border: 1px solid $main-color-1;
             
@@ -262,7 +262,7 @@ main.menu {
     .menu-item .menu-pic .menu-img-holder16:hover,
     .menu-item .menu-pic .menu-img-holder17:hover,
     .menu-item .menu-pic .menu-img-holder18:hover {
-        transform: scale(1.1)
+        transform: scale(1.1);
     }
 
 }
