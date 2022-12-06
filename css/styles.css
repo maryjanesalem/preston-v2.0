@@ -775,7 +775,7 @@ main.menu h3 {
 }
 main.menu .menu-item {
   display: flex;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 main.menu .menu-item .menu-pic {
   width: 10rem;
