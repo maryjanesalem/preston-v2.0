@@ -478,7 +478,7 @@ footer .copyright-flex .social-footer img {
   font-style: italic;
   margin-bottom: 0.4em;
   font-family: "Viaoda Libre", cursive;
-  color: #F37A71;
+  color: #CC1C1C;
 }
 .booking .booking-title h2 {
   font-weight: bold;
@@ -548,7 +548,7 @@ footer .copyright-flex .social-footer img {
   margin-bottom: 0.5em;
 }
 .book-by-call span.color-red {
-  color: #F37A71;
+  color: #CC1C1C;
   display: inline-block;
 }
 
@@ -573,7 +573,7 @@ main.about-page .intro {
 main.about-page h4 {
   font-family: "Viaoda Libre", cursive;
   font-style: italic;
-  color: #F37A71;
+  color: #CC1C1C;
   text-transform: capitalize;
 }
 main.about-page h2, main.about-page p {
@@ -721,7 +721,7 @@ main.about-page .chef .prof-img {
   bottom: 4em;
   left: 6em;
   border-radius: 100%;
-  border: 8px solid #F37A71;
+  border: 8px solid #CC1C1C;
   z-index: 2;
 }
 @media screen and (min-width: 768px) {

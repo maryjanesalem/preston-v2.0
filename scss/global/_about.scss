@@ -12,7 +12,7 @@ main.about-page {
     h4 {
         font-family: $font-2;
         font-style: italic;
-        color: $highlight-color-2;
+        color: $new-color-1;
         text-transform: capitalize;
     }
 
@@ -191,7 +191,7 @@ main.about-page {
             bottom: 4em;
             left: 6em;
             border-radius: 100%;
-            border: 8px solid $highlight-color-2;
+            border: 8px solid $new-color-1;
             z-index: 2;
         }
 
